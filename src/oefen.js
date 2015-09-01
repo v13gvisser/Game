@@ -4,9 +4,9 @@
  * and open the template in the editor.
  */
 $('veld').on('click',function(){
- 
-https://api.jquery.com/jquery.get/        
-    }
-})
+     $.get("server.php", function(data, status){
+        console.log("Data: " + data + "\nStatus: " + status);
+     });
+});
 
-var id=$(this).attr('id').val()
+var id=$(this).attr('id').val();
