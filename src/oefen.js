@@ -1,12 +1,9 @@
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-$('veld').on('click',function(){
+
+$(".Vakje").on('click',function(){
      $.get("server.php", function(data, status){
         console.log("Data: " + data + "\nStatus: " + status);
      });
+     
 });
 
-var id=$(this).attr('id').val();
+//var id=$(this).attr('id').val();
