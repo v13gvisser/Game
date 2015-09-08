@@ -19,10 +19,11 @@ class Connection {
 
     private static $pdo = null;
     private static $pdoStatement = null;
-    private static $user = "";
-    private static $password = "";
+    private static $user = "v13gvisser";
+    private static $password = "3tCHz7qP";
     private static $dsn = null;
-
+    private static $dbname = "{v13gvisser}_Game";
+    private static $host = 'localhost';
     /**
      * Connect
      * @param String $dbname
