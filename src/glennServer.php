@@ -11,4 +11,15 @@ class Server {
     private $player;
     private $move;
     
+    public function getMethod($g) {
+        return $_GET[$g];
+    }
+ public function __construct() {
+     $this->turn = "Blue";
+     $this->move = "";
+     $this->player = "";
+ }
+    
+    
+    
 }
